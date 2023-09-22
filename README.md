@@ -1,4 +1,3 @@
-![image](https://github.com/hasimiali/Jarkom-Modul-1-F14-2023/assets/145772135/bf6c635a-f0f9-44d0-ac10-e8510cfa350b)# Jarkom-Modul-1-F10-2023
 Laporan resmi praktikum modul 1 wireshark &amp; crimping mata kuliah jaringan komputer <br />
 Kelompok: F14 <br />
 Nama anggota 1: Ali Hasyimi Assegaf <br />
