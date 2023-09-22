@@ -57,3 +57,11 @@ Terdapat 6 paket.
 Filter kueri "tcp.dstport == 80 || udp.dstport == 80"<br />
 ![image](https://github.com/hasimiali/PBKK-latihan/assets/34941761/30161985-8c15-4b94-a34c-a0d66c41e63d)<br />
 
+## 9. <img width="273" alt="Screenshot 2023-09-22 at 20 34 33" src="https://github.com/hasimiali/Jarkom-Modul-1-F14-2023/assets/114007555/3913476f-4282-46f4-b9b2-f5036c5b9898">
+
+<img width="528" alt="Screenshot 2023-09-22 at 20 36 00" src="https://github.com/hasimiali/Jarkom-Modul-1-F14-2023/assets/114007555/91f3a295-a47f-47d2-8fd1-e121fd2d51d1">
+
+
+ip.src == 10.51.40.1 && ip.dst != 10.39.55.34
+
+
