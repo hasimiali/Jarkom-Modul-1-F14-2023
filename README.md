@@ -38,3 +38,22 @@ Cek satu-persatu dari paket yang tertangkap. Ditemukan email yang isinya dapat d
 Setelah di encode menggunakan base64 didapatkah password "5implePas5word". Buka file zip dan dapatkan “nc 10.21.78.111 11111”.
 ![image](https://github.com/hasimiali/PBKK-latihan/assets/34941761/d4c30384-406c-4ff2-9e6e-67ee1d27b6b8)<br />
 Total paket 60, Smtp port 25, ip public 74.53.140.153.
+
+## 6. Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
+
+Pada soal ini terdapat 3 hal yang dapat diambil sebagai petunjuk untuk mencari jawaban.
+1. Terdapat beberapa kata yang memuat huruf besar, yaitu "Seorang", "Udin", "Berteman", "SlameT", "Ia", "valoranT", "terdUga", "Sebuah", dan "Invalid". Sembilan kata itu apabila diambil dan disusun huruf besarnya terbentuk kata SUBSTITUSI.
+2. kode invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". Pada kalimat ini, Tulisan "SOURCE ADDRESS 7812" menggunakan huruf besar. Hal ini menunjukkan bahwa kalimat tersebut memiliki pesan khusus.
+3. "hasil pencarian hanya menampilkan a1 e5 u21". Dapat dilihat bahwa a1 e5 u21 merupakan pasangan huruf dan angka.
+Dari petunjuk pertama dan ketiga, bisa diperkirakan bahwa kita harus melakukan substitusi pada suatu angka atau huruf sesuai dengan pasangan huruf dan urutan hurufnya. Pada petunju kedua, "SOURCE ADDRESS" dapat dikatakan sebagai ip address dari pengirim pada paket tersebut dan "7812" kemungkinan merupakan nomor dari sebuah paket. Ketika kita cek, paket ke 7812 memiliki ip address source yaitu "104.18.14.101". Kita perlu mengubah angka ke bentuk huruf. Angka-angka pada ip tersebut dapat dipisah-pisah menjadi "10 4 18 14 10 1" dan dapat disubtitusi menjadi "JDRNJA".<br />
+![image](https://github.com/hasimiali/PBKK-latihan/assets/34941761/237a01ce-812c-42df-b6f6-4795da7b9732)<br />
+
+## 7. Berapa jumlah packet yang menuju IP 184.87.193.88?
+Filter kueri "ip.dst==184.87.193.88"
+![image](https://github.com/hasimiali/PBKK-latihan/assets/34941761/26500389-3d3b-470b-a7dc-a4f50f4583cb)<br />
+Terdapat 6 paket.
+
+## 8. Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)
+Filter kueri "tcp.dstport == 80 || udp.dstport == 80"<br />
+![image](https://github.com/hasimiali/PBKK-latihan/assets/34941761/30161985-8c15-4b94-a34c-a0d66c41e63d)<br />
+
